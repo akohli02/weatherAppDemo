@@ -40,7 +40,7 @@ app.get('', (req, res) => {
 	res.render('index', 
 		{
 			title: 'Home Page',
-			name: 'Dr. Arrington',
+			name: 'Aimy Kohli',
 			course: 'CSC 174'
 		}
 	); // renders the dynamic index template
@@ -50,7 +50,7 @@ app.get('', (req, res) => {
 app.get('/about', (req, res) => {
 	res.render('about', {
 		title: 'About Page',
-		name: 'Dr. Arrington',
+		name: 'Aimy Kohli',
 		course: 'CSC 174'
 	});
 });
@@ -60,7 +60,7 @@ app.get('/help', (req, res) => {
 	res.render('help', {
 		title: 'Help Page',
 		helpText: 'This is some helpful text from the help page',
-		name: 'Dr. Arrington',
+		name: 'Aimy Kohli',
 		course: 'CSC 174'
 	});
 });
